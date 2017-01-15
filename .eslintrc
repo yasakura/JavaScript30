@@ -1,0 +1,12 @@
+{
+  "extends": "standard",
+  "rules": {
+    "max-statements": ["error", 15],
+    "complexity": ["error", 5],
+    "max-depth": ["error", 3]
+  },
+  "installedESLint": true,
+  "plugins": [
+      "standard"
+  ]
+}
